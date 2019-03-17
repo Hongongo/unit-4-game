@@ -1,0 +1,83 @@
+*{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+}
+body{
+    height: 150%;
+    background-size: cover;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+}
+
+#instructions{
+    font-size: 50px;
+}
+#container{
+    padding-top: 50px;
+    text-align: center;
+}
+
+button{
+    width: 150px;
+}
+#characters{
+    position: relative;
+    display: inline-block;
+}
+#characterss{
+    position: relative;
+    display: inline-block;
+}
+#fight-section{
+    position: relative;
+    display: inline-block;
+}
+.visible {
+    display: inline;
+}
+.invisible {
+    display: none;
+}
+.the-player {
+    border: green solid 2px;
+}
+
+.the-enemies {
+    border: red solid 2px;
+}
+.the-defender {
+    border: blue solid 2px;
+}
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 320px;
+    margin-right: 20px;
+    transition: all .3s ease;
+    cursor: pointer;
+    color: black;
+}
+.card:last-child {
+    margin-right: 0; }
+.card:hover {
+    transform: scale(1.05); }
+.card img {
+    cursor: pointer;
+}
+
+.card h3 {
+    font-family: "champion_gothiclightweight", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 260px;
+    width: 200px; }
+.card h4 {
+    font-family: "champion_gothicheavyweight", "Helvetica Neue", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 285px;
+    width: 200px; }
